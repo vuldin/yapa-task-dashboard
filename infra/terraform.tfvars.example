@@ -1,0 +1,14 @@
+project_id = "<TEAM_PROJECT_ID>"
+region     = "us-central1"
+
+# The YAPA sync service, and an audience its YAPA_AUDIENCES accepts (its
+# deterministic URL: yapa's infra/service output app_audiences).
+yapa_service_url    = "https://<YAPA_SERVICE_URL>"
+yapa_token_audience = "https://yapa-service-<PROJECT_NUMBER>.us-central1.run.app"
+
+allowed_hd         = "<COMPANY_DOMAIN>"
+iap_access_members = ["domain:<COMPANY_DOMAIN>"]
+
+# notification_channels = ["projects/<TEAM_PROJECT_ID>/notificationChannels/<ID>"]
+
+# image is passed by deploy.sh (digest-pinned); do not set it here.

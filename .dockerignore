@@ -1,0 +1,9 @@
+node_modules
+dist
+web/dist
+infra
+*.log
+.DS_Store
+.env*
+*.tfvars
+*.tfplan

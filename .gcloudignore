@@ -1,0 +1,10 @@
+# Cloud Build upload (infra/deploy.sh). The Dockerfile rebuilds everything.
+.gcloudignore
+node_modules/
+dist/
+web/dist/
+infra/
+*.log
+.env*
+*.tfvars
+*.tfplan
