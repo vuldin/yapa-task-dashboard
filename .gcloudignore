@@ -1,5 +1,6 @@
 # Cloud Build upload (infra/deploy.sh). The Dockerfile rebuilds everything.
 .gcloudignore
+.git/
 node_modules/
 dist/
 web/dist/
